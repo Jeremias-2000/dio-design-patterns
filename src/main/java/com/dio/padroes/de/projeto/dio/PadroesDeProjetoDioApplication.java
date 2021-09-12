@@ -1,0 +1,15 @@
+package com.dio.padroes.de.projeto.dio;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+
+@EnableFeignClients
+@SpringBootApplication
+public class PadroesDeProjetoDioApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(PadroesDeProjetoDioApplication.class, args);
+	}
+
+}
